@@ -13,8 +13,8 @@
 #   be located in the uncompressed directory 'quiz_data'.
 rm(list=ls())
 
-## Step 0: Create a variable defining the directory containing the files "Consumption_Hourly.csv"
-## and "Household_Characteristics.csv"
+## Step 0: Set your working directory to the directory containing the files "Consumption_Hourly.csv"
+## and "Household_Characteristics.csv". The function setwd() will help here.
 
 
 ## Step 1: Read in data files, "Consumption_Hourly.csv" and "Household_Characteristics.csv"
